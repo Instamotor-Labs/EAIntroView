@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'EAIntroView/EAIntro{Page,View}.h'
 
   s.dependency 'EARestrictedScrollView', '~> 0.2.0'
+  s.dependency 'SDWebImage' 
 
 end
